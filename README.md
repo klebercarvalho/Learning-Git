@@ -1,6 +1,7 @@
 # Learning-Git
 Learning Git
 
+###### Create & Clone
 
 Creare new respository
 ```sh
@@ -15,7 +16,9 @@ $ git git clone /path/to/repository
 Clone remote respository
 ```sh
 $ git clone username@host:/path/to/repository
+
 ```
+###### Add & Remove
 
 Add changes to INDEX
 ```sh
@@ -39,4 +42,89 @@ $ git reset HEAD file
 $ git reset HEAD .
 # Single file
 $ git reset <filename>
+```
+
+###### Commit & Synchronize
+
+Commit changes
+```sh
+$ git commit -m "Commit message"
+```
+
+Push changes to remote respository
+```sh
+$ git push origin master
+$ git push -u origin master
+```
+
+Connect local repository to remote respository
+```sh
+$ git remote add origin <server>
+```
+
+Update local respository with remote changes
+```sh
+$ git remote add origin <server>
+```
+
+Update local respository with remote changes
+```sh
+$ git remote add origin <server>
+```
+
+###### Branches
+
+Create new branchs
+```sh
+$ git checkout -b <branch>
+# e.g.
+$ git checkout -b feature_x
+```
+
+Switch to master branch
+```sh
+$ git checkout master
+```
+
+Delete branch
+```sh
+$ git branch -d <branch>
+```
+
+Push branch to remote repository
+```sh
+$ git push origin <branch>
+```
+
+###### Merge
+
+Merge changes from another branch
+```sh
+$ git merge <branch>
+```
+
+View changes between two branches
+```sh
+$ git merge <branch>
+```
+
+###### Tagging
+
+Create tag
+```sh
+$ git tag <tag> <commit ID)
+# e.g.
+$git tag 1.0.0 1b2e1d63ff
+```
+
+Get commit ID
+```sh
+$ git log
+```
+
+###### Restore
+
+Replace working copy with lastes form HEAD
+```sh
+$ git checkout --<filenames>
 ```
