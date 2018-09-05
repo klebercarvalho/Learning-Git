@@ -128,3 +128,6 @@ Replace working copy with lastes form HEAD
 ```sh
 $ git checkout --<filenames>
 ```
+Resources
+
+* http://rogerdudler.github.io/git-guide/
