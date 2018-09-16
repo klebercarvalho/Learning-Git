@@ -67,9 +67,9 @@ Update local respository with remote changes
 $ git remote add origin <server>
 ```
 
-Update local respository with remote changes
+Get latest from Git branch
 ```sh
-$ git remote add origin <server>
+$ git pull origin <server>
 ```
 
 ###### Branches
