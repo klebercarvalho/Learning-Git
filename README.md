@@ -122,6 +122,11 @@ Get commit ID
 $ git log
 ```
 
+Show the working tree status
+```sh
+$ git status
+```
+
 ###### Restore
 
 Replace working copy with lastes form HEAD
